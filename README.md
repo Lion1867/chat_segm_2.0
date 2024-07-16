@@ -9,7 +9,7 @@ Chat Segm 2.0 is an intelligent chatbot developed in Python that operates within
 
 Open your terminal and run the following command to clone the repository:
 
-git clone https://github.com/yourusername/chat_segm_2.0.git
+git clone https://github.com/Lion1867/chat_segm_2.0.git
 
 # Navigate to the project directory:
 
