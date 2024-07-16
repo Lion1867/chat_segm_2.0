@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api.Dockerfile
+    image: chat_segm_api
+    ports:
+      - "8080:8080"
+    runtime: nvidia
+    volumes:
+      - ./results:/app/results
+
+  bot:
+    build:
+      context: .
+      dockerfile: bot.Dockerfile
+    image: chat_segm_bot
+    runtime: nvidia
+    volumes:
+      - ./results:/app/results
+
