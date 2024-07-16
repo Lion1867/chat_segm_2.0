@@ -14,24 +14,24 @@ git clone https://github.com/Lion1867/chat_segm_2.0.git
 ## Navigate to the project directory:
 
 Change your current working directory to the project directory:
-
+```sh
 cd chat_segm_2.0
-
+```
 ## Add your Telegram Bot API Token to the .env file:
 
 Open the .env file in a text editor and add your Telegram Bot API Token:
-
+```sh
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
-
+```
 Save the .env file.
 
 ## Build the Docker image and start the services:
 
 Run the following commands to build the Docker image and start the services:
-
+```sh
 sudo docker-compose build
 sudo docker-compose up
-
+```
 This will build the Docker image and start the FastAPI server and the Telegram bot.
 
 ## Access the chatbot on Telegram:
